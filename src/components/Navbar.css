@@ -1,0 +1,176 @@
+.navbar {
+  background: #260124	;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-color: transparent;
+    box-shadow: none;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  max-width: 1500px;
+}
+
+.navbar-logo {
+  color: #FFFF95	;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  font-family: 'VT323', monospace;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.nav-menu {
+  top:40px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  height: 70px;
+}
+
+.nav-links {
+  color: #FFFF95	;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-family: 'VT323', monospace;
+}
+
+/* .nav-links:hover {
+  border-bottom: 4px solid #FFFF95	;
+  transition: all 0.2s ease-out;
+} */
+
+.fa-bars {
+  color: #fff;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+  
+  .navbar-logo {
+    font-size: 50px;
+    padding-left: 0.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  /* .navbar-container{
+    padding-left: 2rem;
+  } */
+
+  .main {
+    top: 0;
+    left: 0;
+    font-family: 'VT323', monospace;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  .main .noise:before {
+    background-size: 150%;
+  }
+  
+  .main .vhs {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    will-change: text-shadow;
+    animation: rgbText 2s steps(9) 0s infinite alternate;
+      font-family: 'VT323', monospace;
+  }
+  
+  .main .vhs .char {
+    will-change: opacity;
+    animation: type 1.2s infinite alternate;
+    animation-delay: calc(60ms * var(--char-index));
+  }
+  
+  .main .time {
+    /* position: absolute; */
+    /* right: 2rem;
+    top: 2rem; */
+    will-change: text-shadow;
+    animation: rgbText 1s steps(9) 0s infinite alternate;
+  }
+
+  .main .counter {
+    position: absolute;
+    left: 1rem;
+    bottom: 1.3rem;
+    will-change: text-shadow;
+    animation: rgbText 1s steps(9) 0s infinite alternate;
+  }
+  
+  .main1 {
+    position: absolute;
+    left: 2.5rem;
+    bottom: 1.3rem;
+    will-change: text-shadow;
+    animation: rgbText 1s steps(9) 0s infinite alternate;
+  }
+  
+  .main2 {
+    position: absolute;
+    left: 7.3rem;
+    bottom: 1.3rem;
+    will-change: text-shadow;
+    animation: rgbText 1s steps(9) 0s infinite alternate;
+  }
+  
+  .main3 {
+    position: absolute;
+    left: 12.3rem;
+    bottom: 1.3rem;
+    will-change: text-shadow;
+    animation: rgbText 1s steps(9) 0s infinite alternate;
+  }
+  
+  .main4 {
+    position: absolute;
+    left: 16.7rem;
+    bottom: 1.3rem;
+    will-change: text-shadow;
+    animation: rgbText 1s steps(9) 0s infinite alternate;
+      
+  }
+ 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+

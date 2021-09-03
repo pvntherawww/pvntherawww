@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+}
+body{
+  font-family: 'VT323', monospace;
+  padding: 0;
+  margin: 0;
+/*  background-color: #e0e0e0;*/
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: 'VT323', monospace;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+}
+button{
+  text-transform: capitalize !important;
+  font-family: 'VT323', monospace;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fafafa;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #07689f;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a2d5f2;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
